@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:form_validation/widgets/auth_background.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -6,7 +7,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: Text('Login'),)
+      body: AuthBackground()
     );
   }
 }

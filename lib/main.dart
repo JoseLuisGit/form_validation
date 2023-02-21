@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.light(),
-      initialRoute: 'home',
+      initialRoute: 'login',
       routes: {
         'login': (context) => const LoginPage(),
         'home' : (context) => const HomePage()
